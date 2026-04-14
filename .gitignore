@@ -1,0 +1,9 @@
+.venv/ 
+venv310/ 
+__pycache__/ 
+*.pyc 
+*.pyo 
+*.pyd 
+.env 
+*.pt 
+*.mp4 
