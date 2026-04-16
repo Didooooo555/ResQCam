@@ -176,7 +176,7 @@ def run_analysis():
                 print("Файл didov2.py не найден.")
                 ok = False
             else:
-                result = subprocess.run([sys.executable, "didov2.py"], check=False)
+                result = subprocess.run([sys.executable, "d.py"], check=False)
                 if result.returncode != 0:
                     ok = False
         except Exception as e:
